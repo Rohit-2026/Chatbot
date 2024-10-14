@@ -1,0 +1,104 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good evening",
+                "hi there",
+                "hey there",
+                "hello there",
+                "morning",
+                "evening",
+                "hiya",
+                "yo"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How can I assist you?",
+                "Greetings! How may I help you?"
+            ]
+        },
+        {
+            "tag": "Need Help",
+            "patterns":["Need Help","Help"],
+            "responses":["I'm here to help! Please ask away!"]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "how are you",
+                "how's it going",
+                "how are you doing",
+                "what's up",
+                "how are things",
+                "you good",
+                "how have you been"
+            ],
+            "responses": [
+                "I'm just a bot, but I'm doing well. How about you?",
+                "I'm good, thanks! How can I assist you?",
+                "Doing great! How can I help you today?",
+                "I'm fine, thanks! What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "see you",
+                "take care",
+                "bye bye",
+                "catch you later",
+                "talk to you soon"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "Bye! See you next time!",
+                "Take care! See you soon!",
+                "Goodbye! Feel free to reach out again!"
+            ]
+        },
+        {
+            "tag": "about_college",
+            "patterns": ["what is RCOEM", "college details", "RCOEM info", "tell me about the college"],
+            "responses": ["RCOEM stands for Shri Ramdeobaba College of Engineering and Management. It is one of the best private engineering colleges in Nagpur."]
+        },
+        {
+            "tag": "address",
+            "patterns": ["college address", "where is RCOEM", "location of RCOEM", "RCOEM address"],
+            "responses": ["The college is located at Ramdeo Tekdi, Gittikhadan, Katol Road, Nagpur – 440013, Maharashtra, India."]
+        },
+        {
+            "tag": "contact_details",
+            "patterns": ["college phone number", "contact number", "phone number", "contact info","contact"],
+            "responses": ["You can contact RCOEM at (91)-(712)-2580011 or 9607980531."]
+        },
+        {
+            "tag": "email_info",
+            "patterns": ["email address", "college email", "how to email", "email for inquiries"],
+            "responses": ["You can send your inquiries to the college via email at principal@rknec.edu."]
+        },
+        {
+            "tag": "history",
+            "patterns": ["college history","history of RCOEM","RCOEM origins", "who founded RCOEM", "how did RCOEM start"],
+            "responses": ["RCOEM was founded by Shri Ramdeobaba Sarvajanik Samiti, a trust dedicated to community service. The college has been serving for over 35 years."]
+        },
+        {
+            "tag": "vision",
+            "patterns": ["vision", "vision of RCOEM", "what does RCOEM aspire", "mission statement"],
+            "responses": ["RCOEM aspires to be a world-class institution providing top-tier technical and management education."]
+        },
+        {
+            "tag": "mission",
+            "patterns": [" mission", "RCOEM goals", "mission of RCOEM", "objectives of RCOEM"],
+            "responses": ["RCOEM aims to provide excellent education while fostering professional ethics and values in its students."]
+        }
+    ]
+}
